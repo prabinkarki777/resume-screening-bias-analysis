@@ -1,0 +1,7 @@
+Experiment,Model,MAE,RMSE,R2
+A_deterministic,RandomForest,0.598,0.777,0.9912
+A_deterministic,Linear,0.027,0.035,1.0
+B_noisy_target,RandomForest,0.888,1.111,0.9822
+B_noisy_target,Linear,0.622,0.796,0.9909
+C_reduced_features,RandomForest,5.591,6.72,0.3426
+C_reduced_features,Linear,5.04,5.933,0.4877

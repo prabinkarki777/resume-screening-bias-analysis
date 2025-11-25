@@ -1,0 +1,67 @@
+Experiment,Model,Type,Metric,Value
+A_deterministic,RandomForest,overall,count,1900.0
+A_deterministic,RandomForest,overall,mean,-0.0004
+A_deterministic,RandomForest,overall,std,0.0959
+A_deterministic,RandomForest,overall,min,-0.5792
+A_deterministic,RandomForest,overall,25%,-0.0453
+A_deterministic,RandomForest,overall,50%,0.002
+A_deterministic,RandomForest,overall,75%,0.0444
+A_deterministic,RandomForest,overall,max,0.5664
+A_deterministic,RandomForest,pair_mean,"('adjacent', 'divergent')",0.0052
+A_deterministic,RandomForest,pair_mean,"('divergent', 'exact_or_related')",0.0118
+A_deterministic,RandomForest,pair_mean,"('exact_or_related', 'adjacent')",-0.0053
+A_deterministic,Linear,overall,count,1900.0
+A_deterministic,Linear,overall,mean,0.001
+A_deterministic,Linear,overall,std,0.0021
+A_deterministic,Linear,overall,min,-0.004
+A_deterministic,Linear,overall,25%,0.0017
+A_deterministic,Linear,overall,50%,0.0017
+A_deterministic,Linear,overall,75%,0.0017
+A_deterministic,Linear,overall,max,0.0023
+A_deterministic,Linear,pair_mean,"('adjacent', 'divergent')",0.0023
+A_deterministic,Linear,pair_mean,"('divergent', 'exact_or_related')",-0.004
+A_deterministic,Linear,pair_mean,"('exact_or_related', 'adjacent')",0.0017
+B_noisy_target,RandomForest,overall,count,1900.0
+B_noisy_target,RandomForest,overall,mean,-0.0053
+B_noisy_target,RandomForest,overall,std,0.1504
+B_noisy_target,RandomForest,overall,min,-0.9926
+B_noisy_target,RandomForest,overall,25%,-0.0761
+B_noisy_target,RandomForest,overall,50%,-0.0044
+B_noisy_target,RandomForest,overall,75%,0.0624
+B_noisy_target,RandomForest,overall,max,1.1221
+B_noisy_target,RandomForest,pair_mean,"('adjacent', 'divergent')",-0.0067
+B_noisy_target,RandomForest,pair_mean,"('divergent', 'exact_or_related')",0.0229
+B_noisy_target,RandomForest,pair_mean,"('exact_or_related', 'adjacent')",-0.0117
+B_noisy_target,Linear,overall,count,1900.0
+B_noisy_target,Linear,overall,mean,0.0034
+B_noisy_target,Linear,overall,std,0.0334
+B_noisy_target,Linear,overall,min,-0.0565
+B_noisy_target,Linear,overall,25%,0.016
+B_noisy_target,Linear,overall,50%,0.016
+B_noisy_target,Linear,overall,75%,0.016
+B_noisy_target,Linear,overall,max,0.0405
+B_noisy_target,Linear,pair_mean,"('adjacent', 'divergent')",-0.0565
+B_noisy_target,Linear,pair_mean,"('divergent', 'exact_or_related')",0.0405
+B_noisy_target,Linear,pair_mean,"('exact_or_related', 'adjacent')",0.016
+C_reduced_features,RandomForest,overall,count,1900.0
+C_reduced_features,RandomForest,overall,mean,0.1966
+C_reduced_features,RandomForest,overall,std,3.7639
+C_reduced_features,RandomForest,overall,min,-15.2255
+C_reduced_features,RandomForest,overall,25%,-2.2282
+C_reduced_features,RandomForest,overall,50%,0.1632
+C_reduced_features,RandomForest,overall,75%,2.475
+C_reduced_features,RandomForest,overall,max,12.8404
+C_reduced_features,RandomForest,pair_mean,"('adjacent', 'divergent')",-0.0225
+C_reduced_features,RandomForest,pair_mean,"('divergent', 'exact_or_related')",-0.1612
+C_reduced_features,RandomForest,pair_mean,"('exact_or_related', 'adjacent')",0.3625
+C_reduced_features,Linear,overall,count,1900.0
+C_reduced_features,Linear,overall,mean,0.1977
+C_reduced_features,Linear,overall,std,0.314
+C_reduced_features,Linear,overall,min,-0.4539
+C_reduced_features,Linear,overall,25%,0.0416
+C_reduced_features,Linear,overall,50%,0.4122
+C_reduced_features,Linear,overall,75%,0.4122
+C_reduced_features,Linear,overall,max,0.4122
+C_reduced_features,Linear,pair_mean,"('adjacent', 'divergent')",0.0416
+C_reduced_features,Linear,pair_mean,"('divergent', 'exact_or_related')",-0.4539
+C_reduced_features,Linear,pair_mean,"('exact_or_related', 'adjacent')",0.4122
